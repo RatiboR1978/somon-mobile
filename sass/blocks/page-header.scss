@@ -1,0 +1,60 @@
+.page-header__menu {
+  width: 100%;
+  box-shadow: 0 0 8px 2px #c5c5c5;
+  height: 94px;
+  background: #f3f3f3;
+  a{
+    color: #0093d3;
+    font-family: 'PT SansB', 'Arial', sans-serif;
+    font-size: 27px;
+    max-width: 200px;
+    line-height: 10px;
+  }
+}
+
+.page-header__logo {
+  width: 37%;
+  float: left;
+  text-align: center;
+  border-right: 1px #dadada solid;
+  padding-top: 30px;
+  min-height: 64px;
+}
+
+.page-healer__my-advert {
+  width: 30.5%;
+  float: left;
+  text-align: center;
+  border-left: 1px #ffffff solid;
+  padding-top: 30px;
+  min-height: 64px;
+}
+
+.page-healer__post-advert {
+  width: 31%;
+  float: left;
+  padding-top: 30px;
+  min-height: 64px;
+  text-align: center;
+  border-left: 1px #ffffff solid;
+}
+
+.page-healer__advert--active {
+  background: #e8e8e8;
+  position: relative;
+}
+
+.page-healer__advert--active:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 10px;
+  bottom: -7px;
+  left: 0;
+  background: #e8e8e8;
+}
+
+.page-header__link {
+  vertical-align: middle;
+  box-shadow: none;
+}

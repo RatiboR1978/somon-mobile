@@ -1,0 +1,39 @@
+body {
+  position: relative;
+  line-height: 1.6;
+  font-family: 'PT Sans','Arial', sans-serif;
+  font-size: 16px;
+  background: #e8e8e8;
+  min-width: 320px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'PT SansB', 'Arial', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input {
+  outline: none;
+  border: 0;
+}
+
+input,
+a:active,
+a:focus {outline:none;}

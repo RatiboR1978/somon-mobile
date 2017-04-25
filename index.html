@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header class="page-header">
+    <nav class="page-header__menu">
+
+      <div class="page-header__logo"><a href="#"><img src="img/logo.png" alt=""></a></div>
+      <div class="page-healer__my-advert"><a class="page-header__link" href="#">Добавить <br>объявление</a></div>
+      <div class="page-healer__post-advert page-healer__advert--active"><a class="page-header__link" href="#">Мои <br>объявления</a></div>
+    </nav>
+  </header>
+  <section class="page-add-listing">
+    <div class="wrapper clearfix">
+      <form class="conditions-publication">
+        <p class="conditions-publication__info">Ваше объявление отправлено на модерацию. Проверка занимает до 3 часов.
+          Пожалуйста, дождитесь проверки вашего объявления и не подавайте его несколько раз.</p>
+        <h2 class="conditions-publication__info-title">Выберите условия публикации:</h2>
+        <ul class="conditions-publication__crumbs">
+          <li class="conditions-publication__crumbs-item"><a href="#">Недвижимость</a></li>
+          <li class="conditions-publication__crumbs-item"><a href="#">Продажа квартир</a></li>
+          <li class="conditions-publication__crumbs-item"><a href="#">1-комнатные</a></li>
+        </ul>
+        <div class="conditions-publication__elect">
+          <input class="conditions-publication__elect-input1" type="radio" id="rad1" name="toggleRadio" checked>
+          <label for="rad1" class="conditions-publication__elect-item conditions-publication__to-be-changed">
+            <div class="conditions-publication__elect-img"><img  src="img/listing.png" alt="listing"></div>
+            <h3 class="conditions-publication__elect-title">Поместить объявление в ТОП</h3>
+            <p class="conditions-publication__elect-text"><span id="new-price">19 c. за 1 день</span> <span id="price">30 с.</span> <span id="percent">-33%!</span></p>
+            <ul class="conditions-publication__elect-list">
+              <li>&ndash; Показывается выше обычных</li>
+              <li>&ndash; Выделено цветом</li>
+              <li>&ndash; В 5 раз больше просмотров</li>
+            </ul>
+
+          </label >
+          <input class="conditions-publication__elect-input2" type="radio" id="rad2" name="toggleRadio">
+          <label for="rad2" class="conditions-publication__elect-item conditions-publication__to-be-changed2">
+            <div class="conditions-publication__elect-img2"><img  src="img/listing2.png" alt="listing"></div>
+            <h3 class="conditions-publication__elect-title">Обычное размещение</h3>
+            <p class="conditions-publication__elect-text">9 c. за 1 день</p>
+            <ul class="conditions-publication__elect-list">
+              <li>&ndash; Показывается после ТОПов</li>
+              <li>&ndash; Не выделяется из списка</li>
+            </ul>
+          </label >
+        </div>
+        <div class="conditions-publication__buttons">
+          <input class="conditions-publication__submit" type="button" value="Опубликовать">
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer class="fotoer-page">
+
+  </footer>
+</body>
+</html>
