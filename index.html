@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -17,8 +17,8 @@
   <section class="page-add-listing">
     <div class="wrapper clearfix">
       <form class="conditions-publication">
-        <p class="conditions-publication__info">Ваше объявление отправлено на модерацию. Проверка занимает до 3 часов.
-          Пожалуйста, дождитесь проверки вашего объявления и не подавайте его несколько раз.</p>
+        <p class="conditions-publication__info">Ваше объявление отправлено на модерацию. Проверка занимает до 3 часов.</p>
+        <p class="conditions-publication__info-continued">Пожалуйста, дождитесь проверки вашего объявления и не подавайте его несколько раз.</p>
         <h2 class="conditions-publication__info-title">Выберите способ размещения</h2>
         <p class="conditions-publication__info-text">В рубрику:</p>
         <ul class="conditions-publication__crumbs">
@@ -27,21 +27,26 @@
           <li class="conditions-publication__crumbs-item"><a href="#">1-комнатные</a></li>
         </ul>
         <div class="conditions-publication__dialog">
+          <div class="conditions-publication__dialog-wrap">
+            <h3 class="conditions-publication__dialog-title">Только сейчас!</h3>
+            <p class="conditions-publication__text-left">Размещение в ТОП <br>со скидкой 33%!</p>
+          </div>
+            <p class="conditions-publication__text-right">Осталось всего <br><span>1 предложение</span> <br>в этой рубрике</p>
 
         </div>
         <div class="conditions-publication__elect">
           <input class="conditions-publication__elect-input1" type="radio" id="rad1" name="toggleRadio" checked>
           <label for="rad1" class="conditions-publication__elect-item conditions-publication__to-be-changed">
             <h3 class="conditions-publication__elect-title">Поместить объявление в ТОП</h3>
-
             <ul class="conditions-publication__elect-list">
               <li>&ndash; Показывается выше обычных</li>
               <li>&ndash; Выделено цветом</li>
               <li>&ndash; В 5 раз больше просмотров</li>
             </ul>
             <p class="conditions-publication__elect-text"><span id="new-price">19 c. за 1 день</span> <span id="price">30 с.</span> <span id="percent">-33%!</span></p>
-
           </label >
+        </div>
+        <div class="conditions-publication__elect">
           <input class="conditions-publication__elect-input2" type="radio" id="rad2" name="toggleRadio">
           <label for="rad2" class="conditions-publication__elect-item conditions-publication__to-be-changed2">
             <h3 class="conditions-publication__elect-title">Обычное размещение</h3>
